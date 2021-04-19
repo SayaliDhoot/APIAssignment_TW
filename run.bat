@@ -1,7 +1,14 @@
 title ApiAssignmentTest
+@echo off
+cls
+echo Start
+cd %CD%
+call mvn clean test
 
-SET var=%cd%
+echo complete
 
-mvn clean test
+timeout /t 2
 
-pause
+START /MAX %CD%\test-output\index.html
+
+echo Press anything to exit 
