@@ -1,0 +1,32 @@
+Manual test cases for Login endpoints of https://reqres.in/:
+
+https://www.sisense.com/blog/rest-api-testing-strategy-what-exactly-should-you-test/
+
+
+In case of Login successful API: 
+
+- If correct HTTP status code (Can be : 200 OK, as all entries correct)
+- If correct response payload has been returned 
+- If reposnse data is structured correctly (JSON/XML/HTML format)
+- Does it triggers some other API/event (Can be checked if not correct response has returned)
+- If response time is in limit 
+- Verify basic performance test : If an operation was completed successfully but took an unreasonable amount of time, the test can be marked as failed
+- Any interruption happens? (interrupt listeners could be tracked)
+
+- (Negative test) : If another email address/user is entered with no such existing entry of user, does it show correct HTTP status code and response? (Can show 400 Bad request- User does not found)
+- (Negative test) : If for same email address/user, wrong password is entered, does it show correct HTTP status code and response? (Can show 400 Bad request- Password is invalid)
+- (Negative test) : Blank email address/password 
+- (Negative test) : If missing any key/value
+- (Negative test) : Missing both fields
+
+
+In Case of Login unsuccessful API: 
+- If correct HTTP status code (Can be : 400 Bad request, as no password provided)
+- If correct response has been returned (Missing password)
+- If reposnse data is structured correctly (JSON/XML/HTML format)
+- Does it triggers some other API/event (Can be checked from reposnse returned)
+- If response time is in limit 
+- Any interruption happens? (interrupt listeners could be tracked)
+- Verify basic performance test : If an operation was completed successfully but took an unreasonable amount of time, the test can be marked as failed
+- (Negative test) : If added correct password field, does it show correct HTTP status code and response?
+- If missing any key/value
