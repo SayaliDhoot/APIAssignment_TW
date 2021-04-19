@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-19T12:41:29 IST" name="API_Assignment" finished-at="2021-04-19T12:42:11 IST" duration-ms="41954">
+    <groups>
+    </groups>
+    <test started-at="2021-04-19T12:41:29 IST" name=" RegistrationTest" finished-at="2021-04-19T12:41:43 IST" duration-ms="13795">
+      <class name="com.thoughtworks.apiAssignmentTest.RegistrationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.thoughtworks.apiAssignmentTest.RegistrationTest@a2431d0]" started-at="2021-04-19T12:41:29 IST" name="setup" finished-at="2021-04-19T12:41:30 IST" duration-ms="788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFailedRegistrationWithInvalidEmail()[pri:0, instance:com.thoughtworks.apiAssignmentTest.RegistrationTest@a2431d0]" started-at="2021-04-19T12:41:30 IST" name="testFailedRegistrationWithInvalidEmail" finished-at="2021-04-19T12:41:34 IST" duration-ms="4302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailedRegistrationWithInvalidEmail -->
+        <test-method signature="testFailedRegistrationWithNoEmail()[pri:0, instance:com.thoughtworks.apiAssignmentTest.RegistrationTest@a2431d0]" started-at="2021-04-19T12:41:34 IST" name="testFailedRegistrationWithNoEmail" finished-at="2021-04-19T12:41:36 IST" duration-ms="1699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailedRegistrationWithNoEmail -->
+        <test-method signature="testFailedRegistrationWithNoEmailAndUsername()[pri:0, instance:com.thoughtworks.apiAssignmentTest.RegistrationTest@a2431d0]" started-at="2021-04-19T12:41:36 IST" name="testFailedRegistrationWithNoEmailAndUsername" finished-at="2021-04-19T12:41:37 IST" duration-ms="1697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailedRegistrationWithNoEmailAndUsername -->
+        <test-method signature="testFailedRegistrationWithNoPassword()[pri:0, instance:com.thoughtworks.apiAssignmentTest.RegistrationTest@a2431d0]" started-at="2021-04-19T12:41:37 IST" name="testFailedRegistrationWithNoPassword" finished-at="2021-04-19T12:41:39 IST" duration-ms="1738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailedRegistrationWithNoPassword -->
+        <test-method signature="testForResponseTimeForDeleteUser()[pri:0, instance:com.thoughtworks.apiAssignmentTest.RegistrationTest@a2431d0]" started-at="2021-04-19T12:41:39 IST" name="testForResponseTimeForDeleteUser" finished-at="2021-04-19T12:41:41 IST" duration-ms="1758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForResponseTimeForDeleteUser -->
+        <test-method signature="testSuccessfulRegistration()[pri:0, instance:com.thoughtworks.apiAssignmentTest.RegistrationTest@a2431d0]" started-at="2021-04-19T12:41:41 IST" name="testSuccessfulRegistration" finished-at="2021-04-19T12:41:43 IST" duration-ms="1757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulRegistration -->
+      </class> <!-- com.thoughtworks.apiAssignmentTest.RegistrationTest -->
+    </test> <!--  RegistrationTest -->
+    <test started-at="2021-04-19T12:41:43 IST" name=" LoginTest" finished-at="2021-04-19T12:41:56 IST" duration-ms="12593">
+      <class name="com.thoughtworks.apiAssignmentTest.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.thoughtworks.apiAssignmentTest.LoginTest@bd4dc25]" started-at="2021-04-19T12:41:43 IST" name="setup" finished-at="2021-04-19T12:41:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFailedLoginWithInvalidEmail()[pri:0, instance:com.thoughtworks.apiAssignmentTest.LoginTest@bd4dc25]" started-at="2021-04-19T12:41:43 IST" name="testFailedLoginWithInvalidEmail" finished-at="2021-04-19T12:41:45 IST" duration-ms="1789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailedLoginWithInvalidEmail -->
+        <test-method signature="testFailedLoginWithInvalidPassword()[pri:0, instance:com.thoughtworks.apiAssignmentTest.LoginTest@bd4dc25]" started-at="2021-04-19T12:41:45 IST" name="testFailedLoginWithInvalidPassword" finished-at="2021-04-19T12:41:47 IST" duration-ms="1756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailedLoginWithInvalidPassword -->
+        <test-method signature="testFailedLoginWithNoEmail()[pri:0, instance:com.thoughtworks.apiAssignmentTest.LoginTest@bd4dc25]" started-at="2021-04-19T12:41:47 IST" name="testFailedLoginWithNoEmail" finished-at="2021-04-19T12:41:49 IST" duration-ms="1670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailedLoginWithNoEmail -->
+        <test-method signature="testFailedLoginWithNoEmailAndUsername()[pri:0, instance:com.thoughtworks.apiAssignmentTest.LoginTest@bd4dc25]" started-at="2021-04-19T12:41:49 IST" name="testFailedLoginWithNoEmailAndUsername" finished-at="2021-04-19T12:41:50 IST" duration-ms="1725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailedLoginWithNoEmailAndUsername -->
+        <test-method signature="testFailedLoginWithNoPassword()[pri:0, instance:com.thoughtworks.apiAssignmentTest.LoginTest@bd4dc25]" started-at="2021-04-19T12:41:50 IST" name="testFailedLoginWithNoPassword" finished-at="2021-04-19T12:41:51 IST" duration-ms="561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailedLoginWithNoPassword -->
+        <test-method signature="testForResponseTimeForInvalidLoginScenario()[pri:0, instance:com.thoughtworks.apiAssignmentTest.LoginTest@bd4dc25]" started-at="2021-04-19T12:41:51 IST" name="testForResponseTimeForInvalidLoginScenario" finished-at="2021-04-19T12:41:53 IST" duration-ms="1747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForResponseTimeForInvalidLoginScenario -->
+        <test-method signature="testForResponseTimeForValidLoginScenario()[pri:0, instance:com.thoughtworks.apiAssignmentTest.LoginTest@bd4dc25]" started-at="2021-04-19T12:41:53 IST" name="testForResponseTimeForValidLoginScenario" finished-at="2021-04-19T12:41:54 IST" duration-ms="1695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForResponseTimeForValidLoginScenario -->
+        <test-method signature="testSuccessfulLogin()[pri:0, instance:com.thoughtworks.apiAssignmentTest.LoginTest@bd4dc25]" started-at="2021-04-19T12:41:54 IST" name="testSuccessfulLogin" finished-at="2021-04-19T12:41:56 IST" duration-ms="1635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+      </class> <!-- com.thoughtworks.apiAssignmentTest.LoginTest -->
+    </test> <!--  LoginTest -->
+    <test started-at="2021-04-19T12:41:56 IST" name=" ListOfUsersTest" finished-at="2021-04-19T12:41:59 IST" duration-ms="2651">
+      <class name="com.thoughtworks.apiAssignmentTest.ListOfUsersTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.thoughtworks.apiAssignmentTest.ListOfUsersTest@53fdffa1]" started-at="2021-04-19T12:41:56 IST" name="setup" finished-at="2021-04-19T12:41:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testForResponseTime()[pri:0, instance:com.thoughtworks.apiAssignmentTest.ListOfUsersTest@53fdffa1]" started-at="2021-04-19T12:41:56 IST" name="testForResponseTime" finished-at="2021-04-19T12:41:57 IST" duration-ms="1325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForResponseTime -->
+        <test-method signature="testSuccessfulRetrievalOfListOfUsers()[pri:0, instance:com.thoughtworks.apiAssignmentTest.ListOfUsersTest@53fdffa1]" started-at="2021-04-19T12:41:57 IST" name="testSuccessfulRetrievalOfListOfUsers" finished-at="2021-04-19T12:41:59 IST" duration-ms="1320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulRetrievalOfListOfUsers -->
+      </class> <!-- com.thoughtworks.apiAssignmentTest.ListOfUsersTest -->
+    </test> <!--  ListOfUsersTest -->
+    <test started-at="2021-04-19T12:41:59 IST" name=" DeleteUserTest" finished-at="2021-04-19T12:42:00 IST" duration-ms="1770">
+      <class name="com.thoughtworks.apiAssignmentTest.DeleteUserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.thoughtworks.apiAssignmentTest.DeleteUserTest@47faa49c]" started-at="2021-04-19T12:41:59 IST" name="setup" finished-at="2021-04-19T12:41:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSuccessfulDeletedUser()[pri:0, instance:com.thoughtworks.apiAssignmentTest.DeleteUserTest@47faa49c]" started-at="2021-04-19T12:41:59 IST" name="testSuccessfulDeletedUser" finished-at="2021-04-19T12:42:00 IST" duration-ms="1764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulDeletedUser -->
+      </class> <!-- com.thoughtworks.apiAssignmentTest.DeleteUserTest -->
+    </test> <!--  DeleteUserTest -->
+    <test started-at="2021-04-19T12:42:00 IST" name=" CreateUserTest" finished-at="2021-04-19T12:42:11 IST" duration-ms="10562">
+      <class name="com.thoughtworks.apiAssignmentTest.CreateUserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.thoughtworks.apiAssignmentTest.CreateUserTest@7205765b]" started-at="2021-04-19T12:42:00 IST" name="setup" finished-at="2021-04-19T12:42:00 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testForResponseTimeForSuccessfulCreateUser()[pri:0, instance:com.thoughtworks.apiAssignmentTest.CreateUserTest@7205765b]" started-at="2021-04-19T12:42:00 IST" name="testForResponseTimeForSuccessfulCreateUser" finished-at="2021-04-19T12:42:02 IST" duration-ms="1829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForResponseTimeForSuccessfulCreateUser -->
+        <test-method signature="testSuccessfulCreateUserWithBlankNameAndJob()[pri:0, instance:com.thoughtworks.apiAssignmentTest.CreateUserTest@7205765b]" started-at="2021-04-19T12:42:02 IST" name="testSuccessfulCreateUserWithBlankNameAndJob" finished-at="2021-04-19T12:42:04 IST" duration-ms="1735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulCreateUserWithBlankNameAndJob -->
+        <test-method signature="testSuccessfulCreateUserWithBothNameAndJob()[pri:0, instance:com.thoughtworks.apiAssignmentTest.CreateUserTest@7205765b]" started-at="2021-04-19T12:42:04 IST" name="testSuccessfulCreateUserWithBothNameAndJob" finished-at="2021-04-19T12:42:06 IST" duration-ms="1771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulCreateUserWithBothNameAndJob -->
+        <test-method signature="testSuccessfulCreateUserWithNoNameNoJob()[pri:0, instance:com.thoughtworks.apiAssignmentTest.CreateUserTest@7205765b]" started-at="2021-04-19T12:42:06 IST" name="testSuccessfulCreateUserWithNoNameNoJob" finished-at="2021-04-19T12:42:07 IST" duration-ms="1715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulCreateUserWithNoNameNoJob -->
+        <test-method signature="testSuccessfulCreateUserWithOnlyJob()[pri:0, instance:com.thoughtworks.apiAssignmentTest.CreateUserTest@7205765b]" started-at="2021-04-19T12:42:07 IST" name="testSuccessfulCreateUserWithOnlyJob" finished-at="2021-04-19T12:42:09 IST" duration-ms="1783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulCreateUserWithOnlyJob -->
+        <test-method signature="testSuccessfulCreateUserWithOnlyName()[pri:0, instance:com.thoughtworks.apiAssignmentTest.CreateUserTest@7205765b]" started-at="2021-04-19T12:42:09 IST" name="testSuccessfulCreateUserWithOnlyName" finished-at="2021-04-19T12:42:11 IST" duration-ms="1707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulCreateUserWithOnlyName -->
+      </class> <!-- com.thoughtworks.apiAssignmentTest.CreateUserTest -->
+    </test> <!--  CreateUserTest -->
+  </suite> <!-- API_Assignment -->
+</testng-results>
