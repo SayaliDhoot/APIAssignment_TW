@@ -21,7 +21,7 @@ public class DeleteUserTest {
 	private static final String DELETE_API_PATH = "/api/login";
 
 	@BeforeClass
-	public static void setup() {
+	public void setup() {
 		RestAssured.baseURI = PropertyUtils.getPropertyValue(BASE_URL);
 	}
 

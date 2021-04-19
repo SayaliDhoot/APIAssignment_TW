@@ -21,7 +21,7 @@ public class LoginTest {
 	private long expectedResponseTime = 5000L;
 
 	@BeforeClass
-	public static void setup() {
+	public void setup() {
 		RestAssured.baseURI = PropertyUtils.getPropertyValue(BASE_URL);
 	}
 
